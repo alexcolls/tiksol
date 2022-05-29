@@ -11,7 +11,7 @@ const Signup = ({ signup }) => {
 
     return (
         <div className={styles.authContainer}>
-            <h1 className={styles.title}>Sign up to use TikSol (beta)</h1>
+            <h1 className={styles.title}>Sign up to use CRYPTOK (beta)</h1>
             <div className={styles.signupForm}>
                 <div className={styles.inputField}>
                     <div className={styles.inputTitle}>Username:</div>

@@ -22,8 +22,8 @@ export default function Home() {
         </>
       ) : (
         <div className='loginContainer'>
-          <div className='loginTitle'>Log in to TikSol</div>
-          <div className='loginSubtitle'>Manage your account, check notifications, comment on videos, and much more.
+          <div className='loginTitle'>Log in to CRYPTOK</div>
+          <div className='loginSubtitle'>Cryptok is a Social Media Video App based  on the Solana blockchain.
           </div>
           <WalletMultiButton />
         </div>
