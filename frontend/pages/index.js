@@ -1,5 +1,6 @@
 import { useWallet } from '@solana/wallet-adapter-react'
 import { WalletMultiButton } from '@solana/wallet-adapter-react-ui'
+import MainView from '../components/MainView'
 import Signup from '../components/SignUp'
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
               Tiktoks will go here
             </div>
           ) : (
-            <Signup />
+            <MainView />
           )}
         </>
       ) : (
