@@ -17,14 +17,16 @@ a {
 
 .app {
   height: 100vh;
-  background: #2c2d30;
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+              linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+              linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .loginContainer {
-  background-color: white;
+  background-color: black;
   width: 350px;
   min-height: 300px;
   display: flex;
@@ -35,11 +37,13 @@ a {
 }
 
 .loginTitle {
+  color: white;
   font-size: 1.5rem;
   font-weight: bold;
 }
 
 .loginSubtitle {
+  color: white;
   font-size: 1rem;
   color: #959595;
   text-align: center;
