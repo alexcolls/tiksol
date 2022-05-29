@@ -22,7 +22,7 @@ export default function Home() {
         </>
       ) : (
         <div className='loginContainer'>
-          <div className='loginTitle'>Log in to CRYPTOK</div>
+          <div className='loginTitle'>Log in to Cryptok</div>
           <div className='loginSubtitle'>Cryptok is a Social Media Video App based  on the Solana blockchain. Cryptok team is building a unique web3 social media  where users can create content, own, and monetize their experiences using the main utility token of the platform.
           </div>
           <WalletMultiButton />
