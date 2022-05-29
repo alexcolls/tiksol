@@ -26,7 +26,7 @@ a {
 }
 
 .loginContainer {
-  background-color: black;
+  background-color: white;
   width: 350px;
   min-height: 300px;
   display: flex;
@@ -37,17 +37,13 @@ a {
 }
 
 .loginTitle {
-  color: white;
   font-size: 1.5rem;
   font-weight: bold;
 }
 
 .loginSubtitle {
-  color: white;
   font-size: 1rem;
   color: #959595;
   text-align: center;
-  margin-top: -80px;
-  margin: 0.5rem;
-
+  margin: -80px 20px;
 }

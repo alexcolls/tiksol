@@ -1,5 +1,5 @@
 .authContainer{
-    background-color: black;
+    background-color: white;
     min-width: 25rem;
     min-height: 20rem;
     display: flex;
@@ -11,14 +11,12 @@
 }
 
 .title {
-    color: white;
     font-weight: bolder;
     font-size: 1.5rem;
     margin: 1.5rem 0 3rem 0;
 }
 
 .signupForm {
-    color: white;
     display: flex;
     flex-direction: column;
     width: 100%;
